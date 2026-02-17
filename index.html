@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internship Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Internship Onboarding Dashboard</h1>
+        <p>Track your progress easily</p>
+    </header>
+
+    <section class="form-section">
+        <h2>Add New Task</h2>
+        <input type="text" id="taskInput" placeholder="Enter task name">
+        <select id="statusSelect">
+            <option value="Pending">Pending</option>
+            <option value="Completed">Completed</option>
+        </select>
+        <button onclick="addTask()">Add Task</button>
+    </section>
+
+    <section class="task-section">
+        <h2>Task List</h2>
+        <ul id="taskList"></ul>
+    </section>
+
+    <footer>
+        <p>© 2026 Internship Program</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
